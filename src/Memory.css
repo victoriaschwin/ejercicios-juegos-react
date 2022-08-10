@@ -1,0 +1,13 @@
+.tablero{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 50%;
+  margin: 2rem;
+ 
+}
+
+.tablero div{
+  border: 1px solid gray;
+  padding: 0.5rem;
+}
+
