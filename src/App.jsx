@@ -5,6 +5,7 @@ import './App.css';
 import Trio from './Trio';
 import PPT from './PPT';
 import Memory from './Memory';
+import TicReact from './TicReact';
 
 const Titulo = styled.h1`
 margin: 1rem;
@@ -27,6 +28,8 @@ function App() {
       <hr />
       <Titulo>Memory</Titulo>
       <Memory />
+      <Titulo>Tic React Toe</Titulo>
+      <TicReact />
     </>
   )
 }

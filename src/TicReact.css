@@ -1,0 +1,7 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 15%;
+  margin: 0.5rem 5rem;
+
+}

@@ -26,7 +26,6 @@ function PPT() {
   const tijera = 3;
   const [jugadaOrdenador, setJugadaOrdenador] = useState(0)
   const [resultado, setResultado] = useState('')
-  const [fondo, setFondo] = useState('')
 
   let imagenes = [null, Piedra, Papel, Tijera];
   
