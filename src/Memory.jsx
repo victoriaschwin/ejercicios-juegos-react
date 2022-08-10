@@ -16,7 +16,11 @@ import './Memory.css'
 function Memory() {
 
   const [logos, setLogos] = useState([
-    {Nada, isVisible: false, index: 0},
+    {Pepsi, isVisible: false, index: 0},
+    {Nada, isVisible: false, index: 1},
+    {Pepsi, isVisible: false, index: 2},
+    {Nada, isVisible: false, index: 3},
+    {Nada, isVisible: false, index: 4},
     {Lipton, isVisible: false, index: 1},
     {Maggi, isVisible: false, index: 2},
     {Evian, isVisible: false, index: 3},
