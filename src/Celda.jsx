@@ -9,17 +9,15 @@ width: 50px,
 height: 50px,`;
 
 
-function Celda() {
+function Celda(props) {
   
-  const [valor, setValor] = useState(0);
+  let display = ''
 
-  const imagenes = [Gris,X,O]
-
-  function jugada(){
-
-    console.log('hola')
+  if (props.valor !== ''){
+    display = (<img src= {props.valor} />)
   }
 
+console.log(props.valor);
 
   const estilo = {
   width: "50px",
@@ -31,7 +29,8 @@ function Celda() {
 }
   return (
     <>
-    <div style={estilo} onClick={jugada} value={valor}>
+    <div style={estilo} onClick={()=>props.jugada(props.index)} value={props.valor}>
+{display}
     </div>
     </>
   )

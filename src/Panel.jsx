@@ -10,7 +10,8 @@ width: 600px,
 function Panel(props){
   return (
     <>
-      <Titulo>{props.mensaje}</Titulo>
+    <Titulo>Turno del jugador {props.turno}</Titulo>
+      <Titulo>¡{props.ganador} ha ganado!</Titulo>
     </>
   )
 }
